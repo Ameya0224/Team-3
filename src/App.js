@@ -102,6 +102,14 @@ class App extends Component {
                   <th>NEXT PAYMENT AMT</th>
                   <th >STATUS</th>
                   <th >REPAY</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+
+
+
+
+
 
                 </tr>
 
