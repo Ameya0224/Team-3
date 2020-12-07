@@ -125,13 +125,12 @@ class App extends Component {
                   <tr class={styles.tableheader}>
                     <th >APPLICATION ID</th>
                     <th >LOAN AMOUNT</th>
-                    <th >SUBMISSION DATE</th>
-                    <th width="15%">TYPE OF LOAN</th>
+                    <th>SUBMISSION DATE</th>
+                    <th>TYPE OF LOAN</th>
                     <th >STATUS</th>
                     <th>EDIT/CONTINUE</th>
                     <th></th>
-
-
+                    <th></th>
 
                   </tr>
 
