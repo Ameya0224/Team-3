@@ -1,0 +1,58 @@
+.navigation{
+    background-color: #213455;
+       
+}
+
+.list{
+    padding: 0;
+    font-weight: 500;
+    font-size: 12px;
+    color: orangered;
+
+}
+.cardy{
+    border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+}
+
+
+
+.btn{
+background: transparent linear-gradient(90deg,#3399f0 0,#44cafc 100%) 0 0 no-repeat padding-box;
+border-radius: 6px;
+color: #fff;
+border: 1px solid transparent;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    padding: 5px;
+    
+
+    
+}
+
+.eff-4{
+    width:140px;
+    height:50px;
+    left:-140px;
+    background:#0a0a0a;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .btn:hover .eff-4{
+    left:0;
+  }
+  .btn:hover a{
+    color: ivory;
+  }
+
+.tableheader{
+    font-size: 12px;
+}
+
+.padding{
+    padding: 5px;
+}
