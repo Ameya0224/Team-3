@@ -12,18 +12,18 @@ function Person({person}) {
 
                 <tr>
                   <td colspan="6" class="brd-none pd0">
-                    <div className={styles.cardy} class="card">
+                    <div className={styles.cardy} class="card pending-cards">
                       {/* <div class="card"> */}
                       <table class="table" >
                         <tbody>
                           <tr class="">
 
-                            <td align="left">{person.id}</td>
-                            <td align="center">Rs.{person.loan}</td>
-                            <td align="center">{person.submission_date}</td>
+                            <td width="17%">{person.id}</td>
+                            <td width="17%">Rs.{person.loan}</td>
+                            <td width="15%" >{person.submission_date}</td>
                             <td width="15%">{person.type_of_loan}</td>
-                            <td width="10%"><span class="badge badge-pill badge-info">{person.status}</span></td>
-                            <td width="10%"><button type="button" class="btn btn-sm btn-outline-primary">{person.edit_continue}</button></td>
+                            <td width="5%"><div class="pending-div"><span class="badge pending-badge badge-pill badge-info">{person.status}</span></div></td>
+                            <td width=""><button type="button" class="btn edit-conti-btn btn-outline-primary">{person.edit_continue}</button></td>
 
                           </tr>
  

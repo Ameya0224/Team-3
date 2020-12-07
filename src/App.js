@@ -62,7 +62,7 @@ class App extends Component {
                   <div class="new-app-button">
 
                     {/* <span className={styles.btn}> */}
-                      <a class="new-app-btn btn btn-sm active" href="#"> START NEW APPLICATION </a>
+                    <a class="new-app-btn btn btn-sm active" href="#"> START NEW APPLICATION </a>
                     {/* </span> */}
                   </div>
                 </div>
@@ -81,7 +81,7 @@ class App extends Component {
                   </div>
                   <div class="new-app-button">
                     {/* <span className={styles.btn}> */}
-                      <a class="new-app-btn btn btn-sm active" href="#"> GET STARTED </a>
+                    <a class="new-app-btn btn btn-sm active" href="#"> GET STARTED </a>
                     {/* </span> */}
 
                   </div>
@@ -89,7 +89,7 @@ class App extends Component {
               </div>
 
             </div>
-            
+
             <div class="mb-4">
               <h6>DISBURSED APPLICATIONS</h6>
             </div>
@@ -129,6 +129,9 @@ class App extends Component {
                     <th width="15%">TYPE OF LOAN</th>
                     <th >STATUS</th>
                     <th>EDIT/CONTINUE</th>
+                    <th></th>
+
+
 
                   </tr>
 
