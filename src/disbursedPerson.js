@@ -9,8 +9,7 @@ function Person({ person }) {
 
   return (
     <div>
-
-
+      
       <Accordion defaultActiveKey="1">
         <table class="table">
           <tbody>
