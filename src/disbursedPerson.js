@@ -68,7 +68,7 @@ function Person({person}) {
                             <td align="center">Name of borrower</td>
                             <td align="left">Name of Institute</td>
                             <td align="left">Course Amount (Rs.)</td>
-                            <td width="30%">Outstanding Amount / Total Amount</td>
+                            <td width="27%">Outstanding Amount / Total Amount</td>
                             <td width="10%">Paid / Total EMIs</td>
 
                           </tr>
